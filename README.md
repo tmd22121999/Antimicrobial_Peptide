@@ -23,4 +23,4 @@ $ tree
 ├── NT15dataset.fasta
 └── README.md
 
-```bash ... ```
+```
