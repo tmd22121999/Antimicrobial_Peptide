@@ -1,11 +1,24 @@
 # Antimicrobial_Peptide
 
 cấu trúc thư mục:
-#!/bin/bash
+$ tree
+.
+├── baocao
+│   ├── Baocao.docx
+│   ├── Baocao.pdf
+│   ├── thuyettrinh.pdf
+│   └── thuyettrinh.pptx
+├── code
+│   ├── AntiAngiogenic_Peptides _QSAR.ipynb
+│   └── Quickly_compare_30_ML_algorithms.ipynb
+├── dataset
+│   ├── benchmarkdataset.fasta
+│   ├── Class angio and negative NTCT.csv
+│   ├── Class angio and negative.csv
+│   ├── NT15dataset.fasta
+└── benchmarkdataset.fasta
+├── Class angio and negative NTCT.csv
+├── Class angio and negative.csv
+├── NT15dataset.fasta
+└── README.md
 
-#File: tree-md
-
-tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
-       sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g')
-
-printf "# Project tree\n\n${tree}"
