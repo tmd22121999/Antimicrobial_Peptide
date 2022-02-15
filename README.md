@@ -1,6 +1,7 @@
 # Antimicrobial_Peptide
 
 cấu trúc thư mục:
+```bash ... ```
 $ tree
 .
 ├── baocao
@@ -22,3 +23,4 @@ $ tree
 ├── NT15dataset.fasta
 └── README.md
 
+```bash ... ```
