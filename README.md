@@ -1,7 +1,7 @@
 # Antimicrobial_Peptide
 
 cấu trúc thư mục:
-```bash ... ```
+```bash ...
 $ tree
 .
 ├── baocao
