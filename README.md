@@ -24,3 +24,4 @@ $ tree
 └── README.md
 
 ```
+môi trường thử nghiệm : Google colab
